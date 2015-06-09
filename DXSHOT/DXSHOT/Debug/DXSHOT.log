@@ -1,0 +1,21 @@
+﻿Build started 2015-06-09 오후 2:49:12.
+     1>Project "D:\education\dxshot\DXSHOT\DXSHOT\DXSHOT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DXSHOT.unsuccessfulbuild".
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\education\dxshot\DXSHOT\DXSHOT\Debug\DXSHOT.exe" /INCREMENTAL:NO /NOLOGO d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DXSHOT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\education\dxshot\DXSHOT\DXSHOT\Debug\DXSHOT.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\education\dxshot\DXSHOT\DXSHOT\Debug\DXSHOT.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
+         DXSHOT.vcxproj -> D:\education\dxshot\DXSHOT\DXSHOT\Debug\DXSHOT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\education\dxshot\DXSHOT\DXSHOT\Debug\DXSHOT.exe;#1" /manifest Debug\DXSHOT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DXSHOT.unsuccessfulbuild".
+         Touching "Debug\DXSHOT.lastbuildstate".
+     1>Done Building Project "D:\education\dxshot\DXSHOT\DXSHOT\DXSHOT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
